@@ -1,0 +1,41 @@
+package decoder
+
+var generatedMotionModeCDF = [numBlockSizes][3]uint16{
+	Block8x8:     {25117, 8008, 0},
+	Block8x16:    {28030, 8003, 0},
+	Block8x32:    {3969, 1378, 0},
+	Block16x8:    {27377, 7240, 0},
+	Block16x16:   {13349, 5958, 0},
+	Block16x32:   {27645, 9162, 0},
+	Block16x64:   {3795, 1174, 0},
+	Block32x8:    {6337, 1994, 0},
+	Block32x16:   {21162, 8460, 0},
+	Block32x32:   {6508, 3652, 0},
+	Block32x64:   {12408, 4706, 0},
+	Block64x16:   {3026, 1565, 0},
+	Block64x32:   {11089, 5938, 0},
+	Block64x64:   {3252, 2067, 0},
+	Block64x128:  {3870, 2371, 0},
+	Block128x64:  {1890, 1433, 0},
+	Block128x128: {261, 210, 0},
+}
+
+var generatedOBMCCDF = [numBlockSizes][2]uint16{
+	Block8x8:     {22331, 0},
+	Block8x16:    {23397, 0},
+	Block8x32:    {9104, 0},
+	Block16x8:    {23467, 0},
+	Block16x16:   {15336, 0},
+	Block16x32:   {18345, 0},
+	Block16x64:   {8760, 0},
+	Block32x8:    {11867, 0},
+	Block32x16:   {17626, 0},
+	Block32x32:   {6951, 0},
+	Block32x64:   {9945, 0},
+	Block64x16:   {5889, 0},
+	Block64x32:   {10685, 0},
+	Block64x64:   {2640, 0},
+	Block64x128:  {1754, 0},
+	Block128x64:  {1208, 0},
+	Block128x128: {130, 0},
+}
